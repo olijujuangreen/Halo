@@ -16,7 +16,7 @@ Halo is intentionally generic. It does not know about success toasts, errors, do
 Add Halo as a Swift Package dependency:
 
 ```swift
-.package(url: "https://github.com/your-org/Halo.git", from: "0.1.0")
+.package(url: "https://github.com/olijujuangreen/Halo.git", from: "0.1.0")
 ```
 
 Then add the product to your app target:
