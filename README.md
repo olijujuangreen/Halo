@@ -1,4 +1,4 @@
-# Halo
+<img width="2172" height="724" alt="Halo" src="https://github.com/user-attachments/assets/7229b018-4e21-49ef-a778-57de85aa7cb7" />
 
 Halo is a SwiftUI-only presentation host for top-of-screen Dynamic Island interactions. It gives an app one small controller for presenting type-erased content in a black island-extension surface, with priority replacement, queueing, tap actions, auto-dismiss, manual dismissal, and drag-to-dismiss.
 
@@ -112,4 +112,3 @@ let item = HaloItem(
 
 halo.present(item)
 ```
-# Halo
