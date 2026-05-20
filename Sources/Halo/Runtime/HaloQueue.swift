@@ -12,9 +12,7 @@ struct HaloQueue {
     private var entries: [Entry] = []
     private var nextSequence = 0
 
-    var count: Int {
-        entries.count
-    }
+    var count: Int { entries.count }
 
     mutating func enqueue(_ item: HaloItem) {
         nextSequence += 1

@@ -11,6 +11,8 @@ import SwiftUI
 ///
 /// Halo content is bottom-aligned by default so callers can opt into extra cutout clearance only when needed.
 public struct HaloLayout: Equatable, Sendable {
+	var resolvedCornerRadius: CGFloat { cornerRadius ?? 30 }
+
     public var horizontalInset: CGFloat
     public var height: CGFloat
     public var maxWidth: CGFloat?
@@ -52,9 +54,5 @@ public struct HaloLayout: Equatable, Sendable {
         var layout = self
         layout.height = max(layout.height, minimumHeight)
         return layout
-    }
-
-    var resolvedCornerRadius: CGFloat {
-        cornerRadius ?? 30
     }
 }
