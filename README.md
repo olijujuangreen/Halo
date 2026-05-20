@@ -2,6 +2,8 @@
 
 Halo is a SwiftUI-only presentation host for top-of-screen Dynamic Island interactions. It gives an app one small controller for presenting type-erased content in a black island-extension surface, with priority replacement, queueing, tap actions, auto-dismiss, manual dismissal, and drag-to-dismiss.
 
+Derived from the work of [Kavsoft](https://www.youtube.com/watch?v=W5iocWzlgDY&t=878s).
+
 Halo is intentionally generic. It does not know about success toasts, errors, downloads, playback, or any app-specific event names. Those semantics belong in the consuming app. The package-owned shell is always meant to read as an expansion of the Dynamic Island, not as a detached surface.
 
 ## Requirements
